@@ -1,0 +1,68 @@
+databaseChangeLog:
+  - changeSet:
+      id: "createInitialTables"
+      author: "tom.yu"
+      changes:
+        - createTable:
+            catalogName: accountapi
+            schemaName: public
+            tableName: account
+            columns:
+              - column:
+                  name: id
+                  type: VARCHAR(64)
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: VARCHAR(128)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: type
+                  type: VARCHAR(32)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: currency
+                  type: VARCHAR(32)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: balance
+                  type: NUMERIC
+        - createTable:
+            catalogName: accountapi
+            schemaName: public
+            tableName: transactions
+            columns:
+              - column:
+                  name: id
+                  type: VARCHAR(64)
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+              - column:
+                  name: account_id
+                  type: VARCHAR(64)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: currency
+                  type: VARCHAR(32)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: amount
+                  type: NUMERIC
+                  constraints:
+                    nullable: false
+              - column:
+                  name: date
+                  type: TIMESTAMP
+                  constraints:
+                    nullable: false
+              - column:
+                  name: narrative
+                  type: VARCHAR(256)

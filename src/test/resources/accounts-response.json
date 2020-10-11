@@ -1,0 +1,50 @@
+[
+  {
+    id: "00001",
+    name: "testaccount1",
+    type: "SAVINGS",
+    currency: "AUD",
+    balance: 29870,
+    balanceDate: "2020-10-11"
+  },
+  {
+    id: "00002",
+    name: "testaccount2",
+    type: "SAVINGS",
+    currency: "AUD",
+    balance: 150000,
+    balanceDate: "2020-10-11"
+  },
+  {
+    id: "00003",
+    name: "testaccount3",
+    type: "CURRENT",
+    currency: "AUD",
+    balance: 3000,
+    balanceDate: "2020-10-11"
+  },
+  {
+    id: "00004",
+    name: "testaccount4",
+    type: "SAVINGS",
+    currency: "SGD",
+    balance: 500000,
+    balanceDate: "2020-10-11"
+  },
+  {
+    id: "00005",
+    name: "testaccount5",
+    type: "CURRENT",
+    currency: "SGD",
+    balance: 12000,
+    balanceDate: "2020-10-11"
+  },
+  {
+    id: "00006",
+    name: "testaccount6",
+    type: "CURRENT",
+    currency: "AUD",
+    balance: 1100,
+    balanceDate: "2020-10-11"
+  }
+]

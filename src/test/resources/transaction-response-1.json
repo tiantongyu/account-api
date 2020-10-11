@@ -1,0 +1,62 @@
+[
+  {
+    id: "90001",
+    account: {
+      id: "00001",
+      name: "testaccount1",
+      type: "SAVINGS",
+      currency: "AUD",
+      balance: 29870,
+      balanceDate: null
+    },
+    currency: "AUD",
+    amount: 1000,
+    narrative: null,
+    date: "2020-08-28"
+  },
+  {
+    id: "90002",
+    account: {
+      id: "00001",
+      name: "testaccount1",
+      type: "SAVINGS",
+      currency: "AUD",
+      balance: 29870,
+      balanceDate: null
+    },
+    currency: "AUD",
+    amount: -5000,
+    narrative: null,
+    date: "2020-09-05"
+  },
+  {
+    id: "90003",
+    account: {
+      id: "00001",
+      name: "testaccount1",
+      type: "SAVINGS",
+      currency: "AUD",
+      balance: 29870,
+      balanceDate: null
+    },
+    currency: "AUD",
+    amount: 1000,
+    narrative: null,
+    date: "2020-09-10"
+  },
+  {
+    id: "90004",
+    account: {
+      id: "00001",
+      name: "testaccount1",
+      type: "SAVINGS",
+      currency: "AUD",
+      balance: 29870,
+      balanceDate: null
+    },
+    currency: "AUD",
+    amount: 1300,
+    narrative: null,
+    date: "2020-09-27"
+  }
+]
