@@ -1,4 +1,4 @@
-#Account API
+# Account API
 A demo springboot project providing two restful APIs for retrieve accounts data
 
 ## APIs
